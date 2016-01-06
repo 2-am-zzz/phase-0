@@ -39,4 +39,4 @@ User experience design is the process by which a website is optimized for a user
 The most tedious part has to be some of the reading. Don't get me wrong, it's all very informative, but it's a bit disappointing to see multiple dead links on a website. Aside from that, the challenge was fairly straightforward and was good practice for using Markdown.
 
 ### Site Map (Updated 1/5/2016)
-![Site map](/imgs/site-map.PNG)
+![Site map](imgs/site-map.PNG)
