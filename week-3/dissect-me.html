@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPS Blog Posts</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+<article>
+	<header>
+		<h1>Version Control, Git, and GitHub</h1>
+		<h3>Snapshots in Time</h3>
+		<h3>1/2/2016</h3>
+	</header>
+	<p>Version control is the concept of keeping track of the iterations of some product. In fact, you may be familiar with the basic concept already, either through the 5th edition of some textbook or perhaps the common editing process of a paper, naming it "paperv2.doc" or "paper(1).txt". In the concept of software, version control is the process of keeping track of the development of a program by maintaining a history of its versions. In response to the need for good version control, version control systems arose, such as Git, Mercurial, and SVN, which were focused on streamlining the process of keeping 'snapshots' of software, as well as adding features such as branching, commit messages, and efficient storage of snapshots.</p>
+
+	<p>One popular version control software proudct is Git. Git is a program that resides on your host computer, helping manage the record-keeping of your software's development. Git tracks the changes you've made by monitoring a specific folder containing your project, called a repository. Whenever changes are made inside the repository, you can ask git to bundle those changes into a commit, or a current snapshot of the software. If you'd like to develop changes without immediately applying them to your master copy, git allows you to make a series of commits that are independent of the 'master' work, called branching. These branches can be merged back into the master copy of the software once you are satisfied with the changes on the separate branch.</p>
+
+	<p>After you've made your commits, it is a good idea to store your repository somewhere outside of your host computer, usually online. While this is a good form of backing up data, this process also allows you to easily collaborate with individuals remotely from having a centralized online repo, while also displaying your code for the world to see and learn. GitHub is one such online repository storage system. Including the aforementioned benefits above, GitHub also allows functions useful for software development teams, such as bug reports, a wiki system, and the ability to request the merging of branches to the master code, called pull requests. By pushing your code from your local repository to GitHub's online repository, your project is readily backed up step-by-step, while also being augmented by tools meant to assist coding teams.</p>
+</article>
+
+<article>
+	<header>
+		<h1>Learning the basics of git</h1>
+		<h3>by Rokas Simkonis</h3>
+		<h3>01-7-15</h3>
+	</header>
+	<p>The purpose of this blog is to learn git basic commands. They are listed below.</p>
+
+	<p>Checkout a repository: git clone Add files to repository git add Commit files to repository git commit -m "Commit message goes here" Push Changes to mastert branch git push origin master Switch from existing branch and create a new one git checkout -b feature-branch</p>
+</article>
+
+</body>
+
+<!-- 
+What HTML5 tags have you used in this challenge and continue to return to often? Why?
+
+The use of tags such as <header>, <footer>, and <article> (as well as <section>) will all be tags I'll continue to use. They're very useful for framing out a page's organization. Header and footer are self-explanatory due to them being in almost every page, but <article> is useful for blog posts and making them appear in a feed correctly, whiel <section> is useful for organizing content that must be formatting in a specific manner.
+
+How do elements get laid out on a page? What is the order the browser uses to display elements?
+
+Elements are laid out on a page linearly, one after another, with some elements nested in others. This creates a tree structure not unlike something you'd see in XML that is organized by looking at parent's children, and then their children's children, in order to determine what content gets delivered what format.
+
+What did you learn about Sublime in this challenge? Do you think you'll create more handy snippets at a later date? What about research some shortcuts that already exist? 
+
+Snippets are the best. I can imagine I could even use them to spit out a very quick blog post if needed! I am actually practicing Sublime Text shortcuts right now through the use of ShortcutFoo, where some useful shortcuts are like moving a line down via CTRL + SHIFT + DOWN, or inserting a new line before with CTRL + SHIFT + ENTER. There are so many ways to make this text editor speed up your workflow.
+
+
+-->
+
+</html>
