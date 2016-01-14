@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000080;
+  background-color: #fff;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+.left {
+  float: left;
+  display: inline;
+  width: 400px;
+  margin-left: 70px;
+}
+
+li {
+  margin-bottom: 35px;
+}
+
+ul {
+  display: inline-block;
+  margin: auto;
+  width: 94%;
+}
+
+.geico {
+  clear: both;
+}
+
+small {
+  font-size: 10px;
+  color: #000080;
+}
+
+header {
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+h4 {
+  font-size: 13px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.capital {
+  font-size: 36px;
+}
+
+.geico {
+  width: 500px;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+.geico img {
+  display: block;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+.geico p {
+  font-size: 11px;
+  }
+  
+.hrule {
+    margin: 15px 0;
+    height: 1px;
+    background-color: #7E7E7E;
+    width: 100%;
+    clear: both;
+  }
+  
+.comments {
+    font-size: 13px;
+  }
+  
+.legal {
+  margin-bottom: 10px;
+}
+
+
+.update {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.inc {
+  font-size: 12px;
+}
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+Important notes are to use the self-closing HTML 'link' tag when pointing at external resources from the HTML. Each link must have a rel field describing the type of link being made, a type field describing the type of file, and an href field that points to the relative path of the file. 
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It was pretty hard to get the floats to work as we wanted, since we didn't have the luxury of using tables to structure the HTML. We used tricks such as making adjustments in margins and defining specific widths in order to use block CSS styles such as auto-margins. Besides that, positioning everything went well, except I was slightly peeved that we had to find a way to create horizontal rules without <hr>, which seems counterintuitive to the simplicity of the HTML. Although I vetted for us to use bottom-border to create the horizontal rules, we ended up using divs that were colored in instead.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used styles such as font-size, color, and font-weight to emulate the look of the site. Since we decided that the charm of Berkshie Hathaway is its frugal design--which could be improved on with HTML5 compliant code--then we decided not to mess with stuff like fonts or the logo, since the title itself is actually fairly close to Berkshire's actual logo.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes, we added various classes such as 'left' for the floats, specific classes to capitalize the logo letters, and classes for each of the sections such as the Geico section and the copyright. This allowed us to apply specific styles to each part without affecting the rest.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+We did! First, tables to organize a webpage are bad practice, which the website heavily relied on. Also, our site used HTML5 compliant code, while the original website used tags that have been deprecated and also use in-line styling. 
+
+*/
