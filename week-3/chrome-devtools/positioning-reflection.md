@@ -3,23 +3,23 @@
 ## Images
 
 Image 1
-![Image 1](/imgs/exercise1.png)
+![Image 1](imgs/exercise1.png)
 Image 2
-![Image 2](/imgs/exercise2.png)
+![Image 2](imgs/exercise2.png)
 Image 3
-![Image 3](/imgs/exercise3.png)
+![Image 3](imgs/exercise3.png)
 Image 4
-![Image 4](/imgs/exercise4.png)
+![Image 4](imgs/exercise4.png)
 Image 5
-![Image 5](/imgs/exercise5.png)
+![Image 5](imgs/exercise5.png)
 Image 6
-![Image 6](/imgs/exercise6.png)
+![Image 6](imgs/exercise6.png)
 Image 7
-![Image 7](/imgs/exercise7.png)
+![Image 7](imgs/exercise7.png)
 Image 8
-![Image 8](/imgs/exercise8.png)
+![Image 8](imgs/exercise8.png)
 Image 9
-![Image 9](/imgs/exercise9.png)
+![Image 9](imgs/exercise9.png)
 
 ## Questions
 
