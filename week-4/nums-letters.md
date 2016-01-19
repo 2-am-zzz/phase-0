@@ -34,3 +34,22 @@ Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/defining-variables.
 ### Exercise 4.2.2: Simple String Methods
 
 Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/simple-string.rb](https://github.com/Zanibas/phase-0/blob/master/week-4/simple-string.rb)
+
+### Exercise 4.2.3: Local Variables and Basic Arithmetical Expressions
+
+Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/basic-math.rb](https://github.com/Zanibas/phase-0/blob/master/week-4/basic-math.rb)
+
+## Release 7: Reflect
+
++ How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+  +
++ What is the difference between integers and floats?
+  +
++ What is the difference between integer and float division?
+  +
++ What are strings? Why and when would you use them?
+  +
++ What are local variables? Why and when would you use them?
+  +
++ How was this challenge? Did you get a good review of some of the basics?
+  +
