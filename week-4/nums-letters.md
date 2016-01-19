@@ -24,3 +24,13 @@ def minutes_in_a_decade
 	p hours_in_year()*10*60
 end
 ```
+
+## Release 5: Exercises
+
+### Exercise 4.2.1: Defining Variables
+
+Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/defining-variables.rb](https://github.com/Zanibas/phase-0/blob/master/week-4/defining-variables.rb)
+
+### Exercise 4.2.2: Simple String Methods
+
+Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/simple-string.rb](https://github.com/Zanibas/phase-0/blob/master/week-4/simple-string.rb)
