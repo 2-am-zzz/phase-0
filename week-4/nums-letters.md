@@ -42,14 +42,14 @@ Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/basic-math.rb](http
 ## Release 7: Reflect
 
 + How does Ruby handle addition, subtraction, multiplication, and division of numbers?
-  +
+  + Ruby handles these operators based on the input given. If integers are given, then integer arithmetic is executed. If floats are present instead, then floating-point calculations with more precision are used. When strings are used in conjunction with integers, then string manipulation methods are invoked.
 + What is the difference between integers and floats?
-  +
+  + Integers represent whole numbers both positive and negative, meaning they lack a decimal component. Floats are represented using floating-point representations that are approximate, yet more accurate representations of numbers with a decimal component.
 + What is the difference between integer and float division?
-  +
+  + Integer division will only return values corresponding to integers. The 'remainder' is effectively cut off and the nearest rounded-down integer is returned. Float division works just like normal division, in that it will return a decimal value that is more representative of the actual division of these numbers.
 + What are strings? Why and when would you use them?
-  +
+  + Strings are basically a sequence of characters, which are basically just letters, numbers, and symbols. You would use strings to produce messages to relay to the console, or label data that is stored in a data structure such as a hash table.
 + What are local variables? Why and when would you use them?
-  +
+  + Local variables are variables that are valid only in the current 'scope' they are defined in. For examples, local variables declared in a function will override 
 + How was this challenge? Did you get a good review of some of the basics?
   +
