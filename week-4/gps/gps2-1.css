@@ -1,0 +1,51 @@
+/* section, footer, header, article {
+  border: 1px red solid;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+article:nth-child(odd) {
+  background-color: green;
+}
+article:nth-child(even) {
+  background-color: yellow;
+}
+
+body {
+  background-color: purple;
+  font-family: sans-serif;
+}
+details p {
+  font-weight:bold;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  text-color:
+}
+
+a {
+  color: gray;
+}
+
+header {
+  text-align: center;
+}
+
+header p {
+  background-color:mint;
+}
+
+section {
+  float: left;
+  width: 44%; 
+  margin-bottom: 20px;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+footer {
+  clear: left;
+}
