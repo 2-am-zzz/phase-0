@@ -50,6 +50,6 @@ Link: [https://github.com/Zanibas/phase-0/blob/master/week-4/basic-math.rb](http
 + What are strings? Why and when would you use them?
   + Strings are basically a sequence of characters, which are basically just letters, numbers, and symbols. You would use strings to produce messages to relay to the console, or label data that is stored in a data structure such as a hash table.
 + What are local variables? Why and when would you use them?
-  + Local variables are variables that are valid only in the current 'scope' they are defined in. For examples, local variables declared in a function will override 
+  + Local variables are variables that are valid only in the current 'scope' they are defined in. For examples, local variables declared in a function will override variables declared outside, but they won't override those variables--the variables only last for as long as their context is active. You would use local variables as temporary storages in your functions, as well as during testing when you need to call functions.
 + How was this challenge? Did you get a good review of some of the basics?
-  +
+  + This challenge was fairly easy. Even though the reading was informative, as long as you passed the Ruby challenge to get into this bootcamp, you could get through this fairly easy. This isn't the same for everyone, especially for those without experience, but it was definitely within comfort level for myself.
