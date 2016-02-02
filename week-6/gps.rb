@@ -45,3 +45,27 @@ p serving_size_calc("cookie", 10)
 # p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+
+=begin
+  
+What did you learn about making code readable by working on this challenge?
+  Some people can really hack at code making it almost unreadable!
+  That's when good refactoring comes in--saving the day by making code
+  readable again. If your code doesn't translate into something easily
+  written by pseudocode, then you're most likely doing something wrong.
+  I got so mad at this code you don't even know. 
+
+Did you learn any new methods? What did you learn about them?
+  Plenty! I learned about .sample which is a random sampling method, the
+  binding.pry method which is a breakpoint method for walking through your code! Awesome! Finally, the fact that we can use conditional operators
+  at the end of our code blocks is going to help with refactoring.
+
+What did you learn about accessing data in hashes? 
+  You can't just pass in the [key,value] pair and hope it functions as a key.
+  Please. The fact that the developer worked around this with a hack just
+  makes me feel sad.
+
+What concepts were solidified when working through this challenge?
+  Concepts that were solidified were the importance of refactoring and how hard it can be to read other people's code if they were in a hurry.
+
+=end
