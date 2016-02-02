@@ -64,9 +64,7 @@ class Die
     end
   end
 
-  def sides
-    @sides
-  end
+  attr_reader :sides
 
   def roll
     return @labels.sample
