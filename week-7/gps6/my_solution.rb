@@ -58,8 +58,8 @@ STATE_DATA = {
 
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# I worked on this challenge with Rene Castillo.
+# We spent 1 hours on this challenge.
 
 # EXPLANATION OF require_relative
 #  require_Relative asserts that specific variables be present in the global environment before the program begins to execute, else it raises an exception. It works by checking if the variable is declared in the program. The difference between require_relative and require is that require_relative is used primarily for variables while require is mainly used for modules in the Ruby library.
