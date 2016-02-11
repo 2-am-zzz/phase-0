@@ -32,29 +32,89 @@ Ch. 1: Values, Types, and Operators
 
 Ch. 2: Program Structure  
 	What is an expression?
+		An expression is some code piece that creates some value.
 	
 	What is the purpose of semicolons in JavaScript? Are they always required?
+		The purpose of semicolons is to separate statements from one another. They
+		aren't always required, but it is suggested that you do for sake of
+		starting and just-in-case.
 
 	What causes a variable to return undefined?
+		If a variable has not been assigned a value beforehand, aka empty, it
+		will return the value undefined.
 
 	Write your own variable and do something to it in the eloquent.js file.
+		var name = "Kevin"
+		name += " Serrano"
+		fullname = name
 
 	What does console.log do and when would you use it? What Ruby method(s) is 
 	this similar to?
+		console.log prints out the output of a statement to the browser's 
+		developer console. This is similar to Ruby's "puts" method.
 
 	Write a short program that asks for a user to input their favorite food. 
 	After they hit return, have the program respond with "Hey! That's my 
 	favorite too!" (You will probably need to run this in the Chrome console 
-	 rather than node since node does not support 
+	rather than node since node does not support 
 	prompt or alert). Paste your program into the eloquent.js file.
 
+		food = prompt("What's your favorite food?")
+		console.log("Hey, " + food +  " is/are my favorite food too!")
+
 	Describe while and for loops
+		While loops run a specified code block repeatedly until a certain condition
+		is met. For loops are similar except that the iteration logic is handled
+		within the for-loop delcaration itself.
 
 	What other similarities or differences between Ruby and JavaScript did you
 	notice in this section?
+		While loops seem to be the same, as are the basic structure of if/else if/
+		else statements. Breaks seem the same, and some incrementation syntax
+		is similar too. Some differences are that Javascript has a nicer single
+		increment/decrement operator and that the structure of declaring a for
+		loop is different. Comments are similar too, though block comments seem
+		to be different.
 
 	Complete at least one of the exercises (Looping a Triangle, FizzBuzz, 
 	of Chess Board) in the eloquent.js file.
+	
+	Looping a Triangle:
+	-------------------
+	var step = "";
+	for (var i = 0; i < 7; i++) {
+	  step += "#";
+	  console.log(step);  
+	};
+
+	FizzBuzz:
+	---------
+	for (var i = 1; i <= 100; i++) {
+		if i % 3 == 0 && i % 5 == 0
+			console.log("FizzBuzz");
+		else if i % 3 == 0
+			console.log("Fizz");
+		else if i % 5 == 0
+			console.log("Buzz");
+		else
+			console.log(i);
+	};
+
+	Chess Board:
+	------------
+	var size = 8;
+	var string = ""
+	var start = true
+	for (y = 0; y < size; y++) {
+		begin = start
+		for (var x = 0; x < size; x++) {
+			begin ? (string += "O") : (string += "X")
+			begin = !begin
+		}
+		string += "\n"
+		start = !start
+	}
+	console.log(string)
 
 Ch. 3: Functions (Skip the sections on closure and recursion)
 	What are the differences between local and global variables in JavaScript?
