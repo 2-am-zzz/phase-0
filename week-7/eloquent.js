@@ -1,10 +1,14 @@
 // Eloquent JavaScript
 /*
-Introduction (Links to an external site.)
+Introduction
 	Did you learn anything new about JavaScript or programming in general?
+		Not really. It was a good refresher to see how far we've come in programming,
+		but overall, I am familiar with the concepts presented.
 	Are there any concepts you feel uncomfortable with?
+		Nope, I'm good so far. This book is fairly well written and I hope it is
+		just as informative in future chapters.
 
-Ch. 1: Values, Types, and Operators (Links to an external site.)
+Ch. 1: Values, Types, and Operators
 	Identify two similarities and two differences between JavaScript and Ruby syntax with regard to numbers, arithmetic, strings, booleans, and various operators.
 
 
