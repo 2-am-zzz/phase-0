@@ -119,6 +119,8 @@ Ch. 2: Program Structure
 Ch. 3: Functions (Skip the sections on closure and recursion)
 	What are the differences between local and global variables in JavaScript?
 	When should you use functions?
+		Local variables are 
+
 
 	What is a function declaration?
 	
