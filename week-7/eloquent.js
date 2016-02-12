@@ -118,13 +118,67 @@ Ch. 2: Program Structure
 
 Ch. 3: Functions (Skip the sections on closure and recursion)
 	What are the differences between local and global variables in JavaScript?
+		The differences between local and global variables:
+			-Local variables are only usable within a function and only exist
+			when a function is executing. Every time a function executes,
+			that local variable will be instantiated anew.
+			-Global variables are variables defined outside of a function,
+			which can be accessed and modified by any other function within
+			the scope of that program.
+
 	When should you use functions?
-		Local variables are 
+		You should use functions when you need to use a certain block of code
+		over and over, especially for different inputs. They help to keep your
+		code concise and follows DRY principals.
+
 
 
 	What is a function declaration?
+		A function decalration is a statement that defines a variable to point
+		at a given function. Function declrations are outside of the top-down
+		execution of a normal program.
 	
 	Complete the minimum exercise in the eloquent.js file.
+
+	MINIMUM:
+	--------
+	function min(x,y) {
+		if (x <= y) {
+	    	return x
+	    }; return y;
+	}
+
+	RECURSION:
+	---------
+	function isEven(number) {
+	  if (number < 0) {
+	    number = -number
+	  }
+	  if (number == 0) {
+	    return true;
+	  } else if (number == 1) {
+	    return false;
+	  } else return isEven(number-2);
+	};
+
+	BEAN COUNTING:
+	--------------
+	  function countBs(string) {
+	    return countChar(string,"B");
+	  };
+
+	  function countChar(string,char) {
+	    var count = 0;
+	    for (var i = 0; i < string.length; i++) {
+	      if (string.charAt(i) == char) {
+	          count++;
+	      };
+	    };
+	    return count;
+	  };	
+
+
+
 
 Ch. 4: Data Structures: Objects and Arrays  
 	Skip the sections on the Lycanthrope's log, Computing Correlations, and 
