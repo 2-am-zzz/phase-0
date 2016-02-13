@@ -181,22 +181,34 @@ Ch. 3: Functions (Skip the sections on closure and recursion)
 
 
 Ch. 4: Data Structures: Objects and Arrays  
-	Skip the sections on the Lycanthrope's log, Computing Correlations, and 
-	sections from Further Arrayology to the Global Object, but read the 
-	chapter summary.
-
 	What is the difference between using a dot and a bracket to look up a 
 	property? Ex. array.max vs array["max"]
+		Calling properties using dot notation requires that the attribute being
+		called must be a valid variable name for the property. However, using
+		bracket notation first evaluates the expression within the square
+		brackets, and then proceeds to use that result as the lookup.
 
 	Create an object called me that stores your name, age, three favorite foods, 
 	and a quirk in your eloquent.js file.
+		var me = {
+			name: "Kevin Serrano",
+			age: "22",
+			favorite_foods: ["carbonara","tea","toffee scones"]
+			quirk: "I went to Dev Bootcamp in person for my online interview."
+		}
 
 	What is a JavaScript object with a name and value property similar to in 
 	Ruby?
+		A hash.
+
 
 */
 // Program Structure
 // Write your own variable and do something to it.
+
+var name = "Kevin"
+name += " Serrano"
+fullname = name
 
 
 
@@ -204,13 +216,55 @@ Ch. 4: Data Structures: Objects and Arrays
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
 
 
+var step = "";
+for (var i = 0; i < 7; i++) {
+  step += "#";
+  console.log(step);  
+};
+
+
+for (var i = 1; i <= 100; i++) {
+	if i % 3 == 0 && i % 5 == 0
+		console.log("FizzBuzz");
+	else if i % 3 == 0
+		console.log("Fizz");
+	else if i % 5 == 0
+		console.log("Buzz");
+	else
+		console.log(i);
+};
+
+
+var size = 8;
+var string = ""
+var start = true
+for (y = 0; y < size; y++) {
+	begin = start
+	for (var x = 0; x < size; x++) {
+		begin ? (string += "O") : (string += "X")
+		begin = !begin
+	}
+	string += "\n"
+	start = !start
+}
+console.log(string)
 
 // Functions
 
 // Complete the `minimum` exercise.
-
+function min(x,y) {
+	if (x <= y) {
+    	return x
+    }; return y;
+}
 
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, 
 // and a quirk below.
+var me = {
+	name: "Kevin Serrano",
+	age: "22",
+	favorite_foods: ["carbonara","tea","toffee scones"]
+	quirk: "I went to Dev Bootcamp in person for my online interview."
+}
