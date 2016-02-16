@@ -1,7 +1,7 @@
 /*
 Gradebook from Names and Scores
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+I worked on this challenge with Patrick Skelley
+This challenge took me 1 hour.
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
@@ -20,21 +20,69 @@ var scores = [ [80, 70, 70, 100],
 
 
 
+
 // __________________________________________
 // Write your code below.
 
+// var gradebook = {};
+// for (var i = 0; i < students.length; i++) {
+//   gradebook[students[i]] = {};
+// };
 
+// var count = 0;
+// for (var x in gradebook) {
+//   // gradebook["joseph"].testScores = scores["joseph"];
+//   gradebook[x].testScores = scores[count];
+//   count++;
+// }
+// // Assign an addScore property to gradebook. Give it the value of a function that accepts name and scorearguments.
+// // Have addScore push the score to the value of the testScore property of the gradebook property that matches the value of the name argument.
 
+// gradebook.addScore = function(name, score) {
+//  // gradebook > name > testScores 
+//   gradebook[name].testScores.push(score);
+// }
+// // Add the getAverage property to gradebook and assign it the value of a function. (This won't actually do anything just yet...)
 
+// gradebook.getAverage = function(name) {
+//   return average(gradebook[name].testScores);
+// }
+// // Create a new function average that accepts an array of integers and return the average of those integers.
 
+// // NOTE: getAverage and average are different functions.
+
+// function average(array) {
+//   var sum = 0;
+//   for(var i = 0; i < array.length; i++){
+//     sum += array[i];
+//   }
+//   var avg = sum/array.length;
+//   return avg;
+// }
 
 
 
 // __________________________________________
 // Refactored Solution
 
+// We know that this runs slower than the loop.
+function average(array) {
+  var sum = array.reduce(function(a,b) { return a + b; });
+  return sum / array.length;
+};
 
+var gradebook = {
+  addScore: function(name,score) {
+    gradebook[name].testScores.push(score);
+  },
+  getAverage: function(name) {
+    return average(gradebook[name].testScores);
+  }
+};
 
+for (var i = 0; i < students.length; i++) {
+  gradebook[students[i]] = {testScores: scores[i]};
+};
 
 
 
@@ -42,15 +90,20 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Reflect
+/*
+
+What did you learn about adding functions to objects?
+  Adding a function to an object is just like adding an attribute to an object.
+How did you iterate over nested arrays in JavaScript?
+  Just like any other iteration! Use a for loop using length as the stop.
+  Since we didn't have to iterate through those arrays in arrays, we didn't
+  have to do nested for loops.
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+  Yes, look at reduce! Although it's a slower runtime, it is a more elegant
+  solution. We do pairwise comparisons and apply a binary operator on each.
 
 
-
-
-
-
-
-
-
+*/
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
